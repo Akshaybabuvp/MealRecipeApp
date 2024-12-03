@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Searching App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <h2>Your Meals<i class="fa-solid fa-utensils"></i></h2>
+
+        <div>
+          <h3>"Stay cheesy and keep eating delicious food."</h3>
+        </div>
+
+        <ul>
+          <li>
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+          </li>
+          <li>
+            <a href="burger.html"><i class="fa-solid fa-burger"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-mug-saucer"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="meal-wrapper">
+        <!-- Searchbox -->
+        <div class="meal-search-box">
+          <h1>Are You Starving?</h1>
+          <p>Search your Ingredients ...</p>
+
+          <div class="meal-search">
+            <input
+              type="text"
+              placeholder="Search your Ingredients...
+              "
+              id="input-box"
+            />
+            <button value="button" id="input-button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Your search result -->
+        <div class="search-result">
+          <h1>Search result:</h1>
+
+          <div id="meal">
+            <!-- <div class="meal-result">
+              <div class="meal-img">
+                <img src="img/pexels-valeriya-1199957.jpg" alt="" />
+              </div>
+              <div class="meal-name">
+                <h2>Name here</h2>
+                <a href="#" class="recipe-btn">Recipe</a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- meal details -->
+
+        <div class="meal-details">
+          <!-- <i class="fa-solid fa-circle-xmark" id="recipe-remove"></i> -->
+
+          <!-- <h2 class="category-name">Meal Name</h2>
+          <p>Category</p>
+          <div class="instructions">
+            <h3>recipe:</h3>
+            <p class="recipe-insruct">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              illum explicabo perspiciatis illo reiciendis eos dolor consequatur
+              maxime quidem, dignissimos consequuntur quibusdam id nulla. Nobis
+              deleniti iure tempora quas qui dolorum repellendus illo! Libero
+              corporis reprehenderit sequi nostrum nobis magni sit voluptatem
+              reiciendis facere, ipsum quo modi magnam tenetur fugiat.
+            </p>
+            <div class="recipe-image">
+              <img src="img/pexels-minan1398-1482803.jpg" alt="" />
+            </div>
+            <a href="#" class="recipe-link">Watch video</a>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <div class="grid">
+          <div>
+            <ul>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="review">
+            <h3>Review</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              nihil, quibusdam deleniti officiis velit autem illum eaque libero
+              doloribus nam!
+            </p>
+          </div>
+
+          <div>
+            <ul class="contact-details">
+              <li>Contact<i class="fa-solid fa-phone"></i></li>
+              <li>SignUp<i class="fa-solid fa-user"></i></li>
+              <li>Location<i class="fa-solid fa-location-dot"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="site">
+          <p>www.foodrecipe.com &copy;2024</p>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
